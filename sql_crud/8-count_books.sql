@@ -1,1 +1,1 @@
-SELECT count(id) FROM books;
+SELECT COUNT(id) FROM books;
