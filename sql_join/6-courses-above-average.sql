@@ -1,6 +1,6 @@
 SELECT courses.title AS course_title
 FROM courses
-JOIN enrollments
+INNER JOIN enrollments
 ON courses.id = enrollments.course_id
 GROUP BY courses.id
 HAVING COUNT(*) > (
